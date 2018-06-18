@@ -4,7 +4,7 @@ import numpy as np
 class Perceptron(object):
     """パーセプトロンの分類器
 
-    パラメータ
+    パラメータ  
     --------------
     eta : float
         学習率（0.0より大きく1.0以下の値）
@@ -21,7 +21,7 @@ class Perceptron(object):
     """
     def __init__(self, eta=0.01, n_iter=10):
         self.eta = eta
-        self.n_iter = n_iter
+        self.n_iter = n_iter   
 
     def fit(self, X,y) :
         """ トレーニングデータに適合させる
